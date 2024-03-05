@@ -46,3 +46,21 @@ button:hover {
   background-color: white;
   color: black;
 }
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.mid-text {
+  padding-top: 150px;
+  text-align: center;
+}
