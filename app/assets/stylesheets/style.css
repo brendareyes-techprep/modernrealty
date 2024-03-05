@@ -10,17 +10,22 @@ body, h1, p {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 150px;
+  margin-bottom: 10 0px;
 }
 .text-section {
   flex-basis: 45%;
+  font-family: 'Open Sans', sans-serif;
 }
 h1 {
-  font-size: 2em;
   margin-left: 70px;
   margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 44px;
 }
 p {
-  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px
   color: #555;
   margin-bottom: 40px;
 }
@@ -63,4 +68,11 @@ button:hover {
 .mid-text {
   padding-top: 150px;
   text-align: center;
+  margin-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px
+}
+h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }

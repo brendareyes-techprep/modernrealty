@@ -19,6 +19,9 @@ class PagesController < ApplicationController
   def edit
   end
 
+  def packages
+  end
+
   # POST /pages or /pages.json
   def create
     @page = Page.new(page_params)
