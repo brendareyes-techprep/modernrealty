@@ -107,3 +107,7 @@ group :test do
   gem "rspec-html-matchers"
   gem "webmock"
 end
+
+gem "cssbundling-rails", "~> 1.4"
+
+gem "jsbundling-rails", "~> 1.3"
