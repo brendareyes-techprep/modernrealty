@@ -1,35 +1,155 @@
 <h1>Packages</h1>
 <div class="container">
-  <div class="text-section">
-    <h3>Photos</h3>
-    <p>Our photos packages are as listed.</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-  </button>
-  </div>
   <div class="img">
     <%= image_tag('house/house.jpeg', alt: 'House', width: '500px') %>
   </div>
+  <div class="text-section">
+    <h3>Photos</h3>
+    <p>Our photos packages are as listed.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#photoModal">
+      Pricing
+    </button>
+  </div>
 </div>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="examplefirstModalLabel">Pricing</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Package</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">10 Photos</th>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+              <th scope="row">20 Photos</th>
+              <td>$175.00</td>
+            </tr>
+            <tr>
+              <th scope="row">30 Photos</th>
+              <td>$200.00</td>
+            </tr>
+            <tr>
+              <th scope="row">40 Photos</th>
+              <td>$225.00</td>
+            </tr>
+            <tr>
+              <th scope="row">50 Photos</th>
+              <td>$250.00</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="text-section">
+    <h3>Detail Shots</h3>
+    <p>Our detail shots packages are as listed.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detailModal">
+      Pricing
+    </button>
+  </div>
+  <div class="img">
+    <%= image_tag('house/house3.jpeg', alt: 'House', width: '500px') %>
+  </div>
+</div>
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pricing</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Package</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">10 Detail Photos</th>
+              <td>$50.00</td>
+            </tr>
+            <tr>
+              <th scope="row">20 Detail Photos</th>
+              <td>$100.00</td>
+            </tr>
+            <tr>
+              <th scope="row">5 Drone Photos</th>
+              <td>$200.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="img">
+    <%= image_tag('livingroom/livingroom1.jpeg', alt: 'House', width: '500px') %>
+  </div>
+  <div class="text-section">
+    <h3>Floor Plans</h3>
+    <p>Our detail shots packages are as listed.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#floorModal">
+      Pricing
+    </button>
+  </div>
+</div>
+<div class="modal fade" id="floorModal" tabindex="-1" aria-labelledby="floorModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pricing</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Package</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Single Floor</th>
+              <td>$75.00</td>
+            </tr>
+            <tr>
+              <th scope="row">2 Floors</th>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+              <th scope="row">3 Floors</th>
+              <td>$200.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
